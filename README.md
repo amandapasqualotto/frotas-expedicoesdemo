@@ -1,91 +1,188 @@
+<div align="center">
 
-# 🚀 Gestão de Frotas e Expedições
-### Plataforma de Gestão Operacional e Logística
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF4D94&center=true&vCenter=true&width=750&lines=Operacional+Management+%7C+Gest%C3%A3o+Operacional;Logistics+%26+Supply+Chain+%7C+Log%C3%ADstica;Dashboard+Interativo+%7C+Web+App;Process+Optimization+%7C+Otimiza%C3%A7%C3%A3o+de+Processos" alt="Typing SVG" />
+</a>
 
-> Desenvolvimento de uma solução digital personalizada para centralização de informações, acompanhamento de indicadores e otimização da gestão operacional de uma rede de minimercados autônomos em Mato Grosso do Sul.
+<br/><br/>
 
-<p align="center">
-  <a href="https://demofrotasexpedicoes.vercel.app/">
-    <strong>🌐 ACESSAR DEMONSTRAÇÃO</strong>
-  </a>
-</p>
+### <a href="#english">🇺🇸 English</a> &nbsp;|&nbsp; <a href="#portugues">🇧🇷 Português</a>
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Demonstration%20%2F%20Demo-FF69B4?style=for-the-badge&logo=appveyor&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+</div>
+
+<br/>
+
+<!-- ======================================================== -->
+<!-- ======================= ENGLISH ======================== -->
+<!-- ======================================================== -->
+
+<a id="english"></a>
+
+# 🇺🇸 English
+
+## 📌 About the Project
+
+This project was born from a real-world need identified alongside an operations coordinator at an autonomous convenience store chain in **Mato Grosso do Sul, Brazil**. 
+
+The operation faced severe challenges regarding fragmented information about fleets, personnel, expenses, and operational resources. Data was scattered, which hindered decision-making, cost tracking, and day-to-day oversight.
+
+Through a rigorous diagnostic process, supply chain mapping, and KPI definition, this customized web application was conceptualized and developed to centralize critical operational data into a single, intuitive interface tailored to the user's actual routine.
+
+🌐 **[Access Online Demo](#)** *(Replace with your deployment link)*
+
+<br/>
+
+## 🎯 Objectives & Impact
+
+- 🧩 **Centralization:** Bring fleet, driver, store, route, fueling, and maintenance data into one unified dashboard.
+- 📉 **Low-Cost Implementation:** Maximize free-tier cloud resources and vanilla web technologies to deliver enterprise-grade utility with zero unnecessary software subscription costs.
+- 🚀 **UX-Focused Design:** Deliver a minimalist, self-explanatory, and responsive interface designed specifically for field and office logistics coordinators.
+
+<br/>
+
+## 🧭 Development Methodology
+
+The project followed a structured product and process engineering lifecycle:
+1. **Operational Diagnostic:** Uncovering pain points and operational bottlenecks.
+2. **Logistics Mapping:** Analyzing end-to-end supply chain workflows.
+3. **KPI Structuring:** Establishing key performance indicators for ongoing tracking.
+4. **Iterative Planning & Validation:** Collaborative progress check-ins and alignment meetings.
+5. **Interface Engineering:** Building a lightweight, fast, and responsive frontend dashboard.
+
+<br/>
+
+## 🛠️ Tech Stack & Tools
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Frontend & Styling
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+
+</td>
+<td width="50%" valign="top">
+
+### ☁️ Backend & Infrastructure
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Generative%20AI-FF69B4?style=for-the-badge&logo=google&logoColor=white"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🔐 About This Demo Version
+
+This repository contains a **public demonstration version** of the system. 
+- In the production environment used by the client, the app includes secure user authentication, role-based access control, and live Firebase database synchronization.
+- To protect proprietary corporate data and sensitive operational records, this public demo runs locally via client-side storage (`localStorage`) populated with mock/fictional seed data.
+
+<br/>
 
 ---
 
-## 📌 Sobre o projeto
+<br/>
 
-O projeto surgiu a partir de uma necessidade real de um coordenador de operações de uma empresa de minimercados autônomos em Mato Grosso do Sul.
+<!-- ======================================================== -->
+<!-- ====================== PORTUGUÊS ======================= -->
+<!-- ======================================================== -->
 
-A operação enfrentava dificuldades relacionadas à falta de centralização das informações sobre frota, colaboradores, despesas e demais recursos operacionais. Os dados estavam dispersos, dificultando o acesso às informações, o acompanhamento da operação, o controle de gastos e a tomada de decisões.
+<a id="portugues"></a>
 
-A partir desse cenário, desenvolvemos um trabalho de diagnóstico e mapeamento da cadeia logística e operacional, buscando compreender os processos existentes, identificar pontos de melhoria e levantar as principais necessidades da gestão.
+# 🇧🇷 Português
 
-Com base nesse levantamento, idealizei e desenvolvi uma aplicação web personalizada, com o objetivo de reunir as principais informações da operação em um único ambiente, proporcionando maior visibilidade, organização e facilidade de acompanhamento.
+## 📌 Sobre o Projeto
 
-## 🎯 Objetivo da solução
+Este projeto surgiu a partir de uma necessidade real de um coordenador de operações de uma empresa de minimercados autônomos em **Mato Grosso do Sul**.
 
-Criar um painel de gestão operacional e logística que permitisse ao coordenador acompanhar informações relevantes da operação de maneira centralizada, intuitiva e acessível.
+A operação enfrentava dificuldades relacionadas à falta de centralização de informações sobre frota, colaboradores, despesas e recursos operacionais. Os dados estavam dispersos, o que dificultava o acesso, o acompanhamento da operação, o controle de gastos e a tomada de decisões.
 
-A proposta foi desenvolver uma interface minimalista, simplificada e autoexplicativa, pensada a partir da rotina e das necessidades reais do usuário, priorizando a facilidade de navegação e a visualização das informações mais relevantes para a gestão.
+Por meio de um trabalho de diagnóstico, mapeamento da cadeia logística e estruturação de KPIs, idealizei e desenvolvi esta aplicação web personalizada para reunir as principais informações operacionais em um ambiente único, intuitivo e acessível.
 
-## ⚙️ Desenvolvimento e metodologia
+🌐 **[Acessar Demonstração Online](#)** *(Substitua pelo link do seu deploy)*
 
-O desenvolvimento não se limitou à construção da aplicação. O projeto envolveu diferentes etapas de análise, planejamento e acompanhamento:
+<br/>
 
-- **Diagnóstico operacional:** levantamento das principais dificuldades e necessidades da gestão.
-- **Mapeamento da cadeia logística:** análise dos processos e fluxos operacionais para identificação de pontos de melhoria.
-- **Definição de KPIs:** análise e estruturação de indicadores-chave de desempenho para acompanhamento da operação.
-- **Planejamento:** elaboração de cronograma de desenvolvimento e organização das etapas do projeto.
-- **Acompanhamento:** realização de reuniões periódicas para validação, alinhamento de expectativas e acompanhamento da evolução da solução.
-- **Desenvolvimento da interface:** criação de um painel personalizado, com foco em usabilidade, simplicidade e centralização das informações.
+## 🎯 Objetivos e Impacto
 
-## 💻 Tecnologias e ferramentas
+- 🧩 **Centralização Operacional:** Reunir frotas, motoristas, lojas, rotas, abastecimentos e manutenções em um único painel de controle.
+- 📉 **Baixo Custo de Implementação:** Maximizar o uso de tecnologias gratuitas e eficientes, entregando uma solução completa sem gerar custos extras com licenças de software.
+- 🚀 **Foco em UX/UI:** Desenvolver uma interface minimalista, simplificada e autoexplicativa, desenhada sob medida para a rotina do gestor logístico.
 
-| Tecnologia | Aplicação |
-|---|---|
-| HTML5 | Estrutura da aplicação |
-| CSS3 | Estilização e interface visual |
-| JavaScript | Funcionalidades e interatividade |
-| Firebase | Backend, dados e autenticação na versão original |
-| Vercel | Hospedagem e publicação da aplicação |
-| IA Generativa | Copiloto no desenvolvimento e otimização do código |
+<br/>
 
-A Inteligência Artificial Generativa foi utilizada como copiloto durante o desenvolvimento, apoiando a construção do código e permitindo acelerar a implementação da solução.
+## 🧭 Metodologia e Desenvolvimento
 
-## 💡 Diferencial: baixo custo de implementação
+O projeto envolveu etapas estruturadas de engenharia de produto e gestão:
+1. **Diagnóstico Operacional:** Levantamento das principais dificuldades e gargalos da gestão.
+2. **Mapeamento Logístico:** Análise de fluxos operacionais para identificação de melhorias.
+3. **Definição de Indicadores (KPIs):** Estruturação de métricas de acompanhamento de desempenho.
+4. **Planejamento e Acompanhamento:** Reuniões periódicas para validação e alinhamento de expectativas.
+5. **Desenvolvimento de Interface:** Criação do painel web interativo priorizando agilidade e usabilidade.
 
-Desde o planejamento, uma das premissas foi desenvolver uma solução que atendesse às necessidades do cliente sem gerar custos adicionais desnecessários com softwares e ferramentas.
+<br/>
 
-A proposta foi explorar ao máximo os recursos disponíveis em tecnologias com planos gratuitos, priorizando ferramentas acessíveis e adequadas à dimensão da operação.
+## 🛠️ Tecnologias e Ferramentas
 
-O objetivo era entregar uma solução funcional, personalizada e alinhada às necessidades do cliente, evitando a dependência de plataformas pagas que poderiam aumentar os custos operacionais.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🔐 Sobre esta versão demonstrativa
+### 💻 Frontend e Estilização
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 
-Esta versão foi disponibilizada exclusivamente para fins de apresentação e demonstração do projeto.
+</td>
+<td width="50%" valign="top">
 
-Na versão desenvolvida para o cliente, a aplicação conta com controle de acesso por usuários, autenticação com login e senha e integração com o Firebase.
+### ☁️ Infraestrutura e Dados
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/IA%20Generativa-FF69B4?style=for-the-badge&logo=google&logoColor=white"/>
 
-Por envolver informações operacionais e dados potencialmente confidenciais e sensíveis da empresa, esses recursos não foram disponibilizados nesta demonstração pública.
+</td>
+</tr>
+</table>
 
-Para permitir que qualquer pessoa possa conhecer e explorar a interface, esta versão não possui autenticação ou acesso aos dados reais da operação. As informações apresentadas são fictícias e foram criadas exclusivamente para fins ilustrativos.
+*Nota: A Inteligência Artificial Generativa foi utilizada como copiloto no desenvolvimento, auxiliando na estruturação do código e na otimização de fluxos.*
 
-**Importante:** esta demonstração não representa o ambiente de produção utilizado pelo cliente.
+<br/>
 
-## 🌐 Demonstração online
+## 🔐 Sobre Esta Versão Demonstrativa
 
-### 👉 [Acessar Gestão de Frotas e Expedições](https://demofrotasexpedicoes.vercel.app/)
+Esta versão foi disponibilizada exclusivamente para fins de apresentação e portfólio.
+- No ambiente de produção entregue ao cliente, a aplicação conta com autenticação por login/senha, controle de permissões e banco de dados em nuvem via **Firebase**.
+- Para preservar dados sigilosos e informações estratégicas da empresa, esta demonstração pública opera de forma isolada no navegador (via `localStorage`) utilizando dados fictícios para fins estritamente ilustrativos.
 
-## 📚 Principais aprendizados
+<br/>
 
-O projeto proporcionou uma experiência prática de integração entre gestão operacional, análise de processos e desenvolvimento tecnológico.
+## 📚 Principais Aprendizados
 
-Um dos principais aprendizados foi compreender como a tecnologia pode ser utilizada para solucionar problemas reais de gestão, mesmo sem a necessidade de grandes investimentos em infraestrutura ou softwares especializados.
+O projeto proporcionou uma rica experiência de interseção entre **gestão operacional, análise de processos e desenvolvimento tecnológico**. Mais do que escrever código, o grande desafio foi compreender a dor real do usuário e transformá-la em uma ferramenta prática que resolve o dia a dia da operação.
 
-Mais do que desenvolver uma aplicação, o desafio foi compreender a operação, identificar suas necessidades e transformar essas informações em uma ferramenta útil para o dia a dia da gestão.
+<br/>
 
----
+<div align="center">
 
-<p align="center">
-  Desenvolvido com foco em <strong>Gestão Operacional, Logística, Análise de Indicadores e Transformação Digital.</strong>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2185B,100:FF8FC7&height=120&section=footer" width="100%" alt="footer"/>
+
+<br/>
+
+<a href="#english">⬆️ Back to top / Voltar ao topo</a>
+
+</div>
