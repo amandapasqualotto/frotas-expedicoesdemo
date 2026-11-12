@@ -1,4 +1,6 @@
-<div align="center">
+<div align="center"> 
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FC7,100:C2185B&height=220&section=header&text=Hi,%20I'm%20Amanda%20Pasqualotto!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Technology%20%C3%97%20Law%20%C3%97%20Product%20%C3%97%20AI&descAlignY=58&descSize=18" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF4D94&center=true&vCenter=true&width=750&lines=Operacional+Management+%7C+Gest%C3%A3o+Operacional;Logistics+%26+Supply+Chain+%7C+Log%C3%ADstica;Dashboard+Interativo+%7C+Web+App;Process+Optimization+%7C+Otimiza%C3%A7%C3%A3o+de+Processos" alt="Typing SVG" />
@@ -35,7 +37,7 @@ The operation faced severe challenges regarding fragmented information about fle
 
 Through a rigorous diagnostic process, supply chain mapping, and KPI definition, this customized web application was conceptualized and developed to centralize critical operational data into a single, intuitive interface tailored to the user's actual routine.
 
-🌐 **[Access Online Demo](#)** *(Replace with your deployment link)*
+🌐**[Access Online Demo](https://demofrotasexpedicoes.vercel.app/)**
 
 <br/>
 
