@@ -1,9 +1,9 @@
 <div align="center"> 
   
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FC7,100:C2185B&height=220&section=header&text=Hi,%20I'm%20Amanda%20Pasqualotto!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Technology%20%C3%97%20Law%20%C3%97%20Product%20%C3%97%20AI&descAlignY=58&descSize=18" width="100%" alt="banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FC7,100:C2185B&height=220&section=header&text=Frotas%20e%20Expedições&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=App%20Web%20de%20Gestão%20Operacional%" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF4D94&center=true&vCenter=true&width=750&lines=Operacional+Management+%7C+Gest%C3%A3o+Operacional;Logistics+%26+Supply+Chain+%7C+Log%C3%ADstica;Dashboard+Interativo+%7C+Web+App;Process+Optimization+%7C+Otimiza%C3%A7%C3%A3o+de+Processos" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF4D94&center=true&vCnter=true&width=750&lines=Operacional+Management+%7C+Gest%C3%A3o+Operacional;Logistics+%26+Supply+Chain+%7C+Log%C3%ADstica;Dashboard+Interativo+%7C+Web+App;Process+Optimization+%7C+Otimiza%C3%A7%C3%A3o+de+Processos" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -114,8 +114,7 @@ A operação enfrentava dificuldades relacionadas à falta de centralização de
 
 Por meio de um trabalho de diagnóstico, mapeamento da cadeia logística e estruturação de KPIs, idealizei e desenvolvi esta aplicação web personalizada para reunir as principais informações operacionais em um ambiente único, intuitivo e acessível.
 
-🌐 **[Acessar Demonstração Online](#)** *(Substitua pelo link do seu deploy)*
-
+🌐**[Access Online Demo](https://demofrotasexpedicoes.vercel.app/)**
 <br/>
 
 ## 🎯 Objetivos e Impacto
@@ -161,9 +160,6 @@ O projeto envolveu etapas estruturadas de engenharia de produto e gestão:
 </tr>
 </table>
 
-*Nota: A Inteligência Artificial Generativa foi utilizada como copiloto no desenvolvimento, auxiliando na estruturação do código e na otimização de fluxos.*
-
-<br/>
 
 ## 🔐 Sobre Esta Versão Demonstrativa
 
