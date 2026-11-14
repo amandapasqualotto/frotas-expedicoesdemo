@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5A00,100:1C1E24&height=220&section=header&text=%F0%9F%A7%AD%20Frotas%20%26%20Expedi%C3%A7%C3%B5es&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Fleet%20%C3%97%20Logistics%20%C3%97%20Operations%20Management&descAlignY=58&descSize=18" width="100%" alt="banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5A00,100:1C1E24&height=220&section=header&text=Frotas%20e%20Expedi%C3%A7%C3%B5es&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Fleet%20%C3%97%20Logistics%20%C3%97%20Operations%20Management&descAlignY=58&descSize=18" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF5A00&center=true&vCenter=true&width=750&lines=Fleet+management+%7C+Gest%C3%A3o+de+frota;Drivers%2C+routes+%26+dispatches+%7C+Expedi%C3%A7%C3%B5es;Real-time+dashboard+%7C+Painel+em+tempo+real;Built+for+a+real+operation+in+MS%2C+Brazil" alt="Typing SVG" />
@@ -33,7 +33,7 @@
 
 # 🇺🇸 English
 
-## 🧭 About the project
+## 📌 About the project
 
 > *"The data existed. It was just scattered across spreadsheets, chats and notebooks."*
 
@@ -218,7 +218,7 @@ cd frotas-expedicoesdemo
 
 # 🇧🇷 Português
 
-## 🧭 Sobre o projeto
+## 📌 Sobre o projeto
 
 > *"Os dados existiam. Só estavam espalhados em planilhas, conversas e cadernos."*
 
