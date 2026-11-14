@@ -1,9 +1,9 @@
-<div align="center"> 
-  
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FC7,100:C2185B&height=220&section=header&text=Frotas%20e%20Expedições&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=App%20Web%20de%20Gestão%20Operacional%" width="100%" alt="banner"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5A00,100:1C1E24&height=220&section=header&text=%F0%9F%A7%AD%20Frotas%20%26%20Expedi%C3%A7%C3%B5es&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Fleet%20%C3%97%20Logistics%20%C3%97%20Operations%20Management&descAlignY=58&descSize=18" width="100%" alt="banner"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF4D94&center=true&vCnter=true&width=750&lines=Operacional+Management+%7C+Gest%C3%A3o+Operacional;Logistics+%26+Supply+Chain+%7C+Log%C3%ADstica;Dashboard+Interativo+%7C+Web+App;Process+Optimization+%7C+Otimiza%C3%A7%C3%A3o+de+Processos" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=FF5A00&center=true&vCenter=true&width=750&lines=Fleet+management+%7C+Gest%C3%A3o+de+frota;Drivers%2C+routes+%26+dispatches+%7C+Expedi%C3%A7%C3%B5es;Real-time+dashboard+%7C+Painel+em+tempo+real;Built+for+a+real+operation+in+MS%2C+Brazil" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -12,10 +12,14 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-Demonstration%20%2F%20Demo-FF69B4?style=for-the-badge&logo=appveyor&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Status](https://img.shields.io/badge/status-live%20demo-FF5A00?style=for-the-badge&logo=vercel&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-1C1E24?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-FF7A2E?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-production-E04E00?style=for-the-badge&logo=firebase&logoColor=white)
+
+<br/>
+
+### 🌐 [**Open the live demo / Abrir a demonstração**](https://demofrotasexpedicoes.vercel.app/)
 
 </div>
 
@@ -29,56 +33,101 @@
 
 # 🇺🇸 English
 
-## 📌 About the Project
+## 🧭 About the project
 
-This project was born from a real-world need identified alongside an operations coordinator at an autonomous convenience store chain in **Mato Grosso do Sul, Brazil**. 
+> *"The data existed. It was just scattered across spreadsheets, chats and notebooks."*
 
-The operation faced severe challenges regarding fragmented information about fleets, personnel, expenses, and operational resources. Data was scattered, which hindered decision-making, cost tracking, and day-to-day oversight.
+**Frotas & Expedições** is a web app for day-to-day operations management, born from a real need of an
+operations coordinator at an **autonomous convenience store chain in Mato Grosso do Sul, Brazil**. Fleet,
+drivers, stores, routes, fueling, inspections and maintenance were tracked in different places, which made
+it hard to control costs, follow the operation and make decisions.
 
-Through a rigorous diagnostic process, supply chain mapping, and KPI definition, this customized web application was conceptualized and developed to centralize critical operational data into a single, intuitive interface tailored to the user's actual routine.
+I mapped the logistics flow with the coordinator, defined what had to be tracked and turned it into **one
+dashboard** shaped around his actual routine.
 
-🌐**[Access Online Demo](https://demofrotasexpedicoes.vercel.app/)**
-
-<br/>
-
-## 🎯 Objectives & Impact
-
-- 🧩 **Centralization:** Bring fleet, driver, store, route, fueling, and maintenance data into one unified dashboard.
-- 📉 **Low-Cost Implementation:** Maximize free-tier cloud resources and vanilla web technologies to deliver enterprise-grade utility with zero unnecessary software subscription costs.
-- 🚀 **UX-Focused Design:** Deliver a minimalist, self-explanatory, and responsive interface designed specifically for field and office logistics coordinators.
-
-<br/>
-
-## 🧭 Development Methodology
-
-The project followed a structured product and process engineering lifecycle:
-1. **Operational Diagnostic:** Uncovering pain points and operational bottlenecks.
-2. **Logistics Mapping:** Analyzing end-to-end supply chain workflows.
-3. **KPI Structuring:** Establishing key performance indicators for ongoing tracking.
-4. **Iterative Planning & Validation:** Collaborative progress check-ins and alignment meetings.
-5. **Interface Engineering:** Building a lightweight, fast, and responsive frontend dashboard.
+- 🚚 **Fleet & drivers** in one place, with vehicle status updated automatically
+- 📦 **Dispatches** with departure/arrival odometer and automatic km driven
+- 🔧 **17-item inspections** and maintenance records with invoice photo
+- ⛽ **Fueling** with automatic price per liter
+- 📊 **Dashboard + reports** filterable by period, driver, vehicle, route and status, exportable to Excel and PDF
+- 🪪 **Alerts** for driver's licenses (CNH) expired or expiring within 30 days
 
 <br/>
 
-## 🛠️ Tech Stack & Tools
+## 🧩 How it was built
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">🔍<br/><b>Diagnosis</b><br/><sub>Pain points with the coordinator</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">🗺️<br/><b>Mapping</b><br/><sub>End-to-end logistics flow</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">📐<br/><b>Indicators</b><br/><sub>What to track and why</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">🔁<br/><b>Validation</b><br/><sub>Check-ins and adjustments</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">💻<br/><b>Web app</b><br/><sub>Firebase + public demo</sub></td>
+</tr>
+</table>
+
+</div>
+
+I built it with **vanilla HTML, CSS and JavaScript**, with **Claude (Anthropic)** as a coding copilot. The goal
+was a tool that costs nothing to run: free-tier cloud resources and no paid software licenses.
+
+**Operational pains and how the app answers them:**
+
+| Pain | Solution |
+|---|---|
+| Nobody knew which vehicles were free | Vehicle status (**Available / In use / Maintenance**) is derived automatically from open dispatches and maintenance |
+| Km driven calculated by hand | Each dispatch stores departure and arrival odometer and **calculates the km driven** on finish |
+| Fuel costs hard to compare | Every fueling record computes the **price per liter** from total value and liters |
+| Licenses expiring unnoticed | The dashboard shows a **warning** for CNH expired or expiring within 30 days |
+| Duplicate vehicle records | **Unique check** on plate, Renavam and chassis |
+| Reports assembled by hand | General report with filters, **CSV export** for Excel and **print / save as PDF** |
+
+<br/>
+
+## 🛠️ Tech Stack
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Frontend & Styling
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+### 💻 Frontend
+<img src="https://img.shields.io/badge/HTML5-FF5A00?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-E04E00?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-1C1E24?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/TailwindCSS-FF7A2E?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 
 </td>
 <td width="50%" valign="top">
 
-### ☁️ Backend & Infrastructure
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Generative%20AI-FF69B4?style=for-the-badge&logo=google&logoColor=white"/>
+### ☁️ Backend & Hosting
+<img src="https://img.shields.io/badge/Firebase%20Auth-E04E00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firestore-FF5A00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Security%20Rules-1C1E24?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-1C1E24?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Data & Reports
+<img src="https://img.shields.io/badge/localStorage%20(demo)-FF7A2E?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSV%20%2F%20Excel-E04E00?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Print%20to%20PDF-FF5A00?style=for-the-badge&logoColor=white"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧰 Tools
+<img src="https://img.shields.io/badge/Git-FF5A00?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-1C1E24?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude%20(copilot)-E04E00?style=for-the-badge&logo=anthropic&logoColor=white"/>
 
 </td>
 </tr>
@@ -86,11 +135,74 @@ The project followed a structured product and process engineering lifecycle:
 
 <br/>
 
-## 🔐 About This Demo Version
+## ✨ What it does
 
-This repository contains a **public demonstration version** of the system. 
-- In the production environment used by the client, the app includes secure user authentication, role-based access control, and live Firebase database synchronization.
-- To protect proprietary corporate data and sensitive operational records, this public demo runs locally via client-side storage (`localStorage`) populated with mock/fictional seed data.
+| Module | What you can do |
+|---|---|
+| 📊 Dashboard | Expeditions, km driven, vehicles in use / available / in maintenance, active drivers, critical inspections, charts by period |
+| 👤 Drivers | Name, contact, CNH number and expiry date, active/inactive status |
+| 🚚 Vehicles | Name, code, plate, model year, Renavam, chassis, owner and automatic status |
+| 🏪 Stores · 🛣️ Routes | Stores by city, routes with linked stores, responsible driver and weekdays |
+| ⛽ Fueling | Date, vehicle, driver, fuel type, liters, total value and price per liter |
+| 📝 Inspections | Odometer, dashboard alerts and a **17-item checklist** rated OK / Attention / Critical |
+| 🔧 Maintenance | Workshop, invoice number and photo, service, value, open/finished |
+| 📦 Expeditions | Driver + route + vehicle, departure and return notes, one-click finish |
+
+<br/>
+
+## 🏗️ Architecture
+
+The whole demo lives in **a single HTML file (~640 lines)**, with no build step.
+
+| Part | What it does |
+|---|---|
+| ⚙️ `E` (entity config) | Describes each module once (fields, types, columns), and forms and tables are generated from it |
+| 🧠 Business rules | Vehicle status, km driven, price per liter, CNH alerts, unique fields |
+| 🖥️ Rendering | Template strings + Tailwind; sidebar, cards, tables, modals and toasts |
+| 💾 Storage | `localStorage` in the demo; Firebase Auth + Firestore with Security Rules in production |
+| 🧾 Reports | Filters, CSV export and a print-only layout for PDF |
+
+Adding a new module is mostly configuration:
+
+```js
+const E = {
+  lojas: {
+    t: 'Lojas', n: 'Nova loja',
+    f: [['nomeLoja', 'Nome da loja'], ['cidade', 'Cidade'], ['observacoes', 'Observações', 'textarea']],
+    c: ['nomeLoja', 'cidade', 'observacoes']
+  }
+}
+```
+
+<br/>
+
+## 🔐 About this demo
+
+| | |
+|---|---|
+| 🏢 **Production** | The client's version has login and password, **role-based access** (Coordinator and Driver) and a Firebase database |
+| 🧪 **Public demo** | Runs entirely in the browser with **fictional data** in `localStorage`, so no company data is exposed |
+| ♻️ **Reset** | The **"Restaurar Dados Iniciais"** button brings back the original sample data at any time |
+
+<br/>
+
+## 🚀 Getting started
+
+Just use the [live demo](https://demofrotasexpedicoes.vercel.app/), or run it locally:
+
+```bash
+git clone https://github.com/amandapasqualotto/frotas-expedicoesdemo.git
+cd frotas-expedicoesdemo
+# open index.html.html in your browser (internet needed for Tailwind and fonts)
+```
+
+<br/>
+
+<div align="center">
+
+<a href="#portugues">🇧🇷 Ler em Português</a> &nbsp;|&nbsp; <a href="#english">⬆️ Back to top</a>
+
+</div>
 
 <br/>
 
@@ -106,81 +218,188 @@ This repository contains a **public demonstration version** of the system.
 
 # 🇧🇷 Português
 
-## 📌 Sobre o Projeto
+## 🧭 Sobre o projeto
 
-Este projeto surgiu a partir de uma necessidade real de um coordenador de operações de uma empresa de minimercados autônomos em **Mato Grosso do Sul**.
+> *"Os dados existiam. Só estavam espalhados em planilhas, conversas e cadernos."*
 
-A operação enfrentava dificuldades relacionadas à falta de centralização de informações sobre frota, colaboradores, despesas e recursos operacionais. Os dados estavam dispersos, o que dificultava o acesso, o acompanhamento da operação, o controle de gastos e a tomada de decisões.
+O **Frotas & Expedições** é um app web de gestão operacional que nasceu de uma necessidade real de um
+coordenador de operações de uma **rede de minimercados autônomos em Mato Grosso do Sul**. Frota, motoristas,
+lojas, rotas, abastecimentos, inspeções e manutenções eram controlados em lugares diferentes, o que dificultava
+o controle de gastos, o acompanhamento da operação e a tomada de decisões.
 
-Por meio de um trabalho de diagnóstico, mapeamento da cadeia logística e estruturação de KPIs, idealizei e desenvolvi esta aplicação web personalizada para reunir as principais informações operacionais em um ambiente único, intuitivo e acessível.
+Mapeei o fluxo logístico junto com o coordenador, defini o que precisava ser acompanhado e transformei tudo
+em **um único painel**, pensado para a rotina real dele.
 
-🌐**[Access Online Demo](https://demofrotasexpedicoes.vercel.app/)**
-<br/>
-
-## 🎯 Objetivos e Impacto
-
-- 🧩 **Centralização Operacional:** Reunir frotas, motoristas, lojas, rotas, abastecimentos e manutenções em um único painel de controle.
-- 📉 **Baixo Custo de Implementação:** Maximizar o uso de tecnologias gratuitas e eficientes, entregando uma solução completa sem gerar custos extras com licenças de software.
-- 🚀 **Foco em UX/UI:** Desenvolver uma interface minimalista, simplificada e autoexplicativa, desenhada sob medida para a rotina do gestor logístico.
-
-<br/>
-
-## 🧭 Metodologia e Desenvolvimento
-
-O projeto envolveu etapas estruturadas de engenharia de produto e gestão:
-1. **Diagnóstico Operacional:** Levantamento das principais dificuldades e gargalos da gestão.
-2. **Mapeamento Logístico:** Análise de fluxos operacionais para identificação de melhorias.
-3. **Definição de Indicadores (KPIs):** Estruturação de métricas de acompanhamento de desempenho.
-4. **Planejamento e Acompanhamento:** Reuniões periódicas para validação e alinhamento de expectativas.
-5. **Desenvolvimento de Interface:** Criação do painel web interativo priorizando agilidade e usabilidade.
+- 🚚 **Frota e motoristas** em um só lugar, com status do veículo atualizado sozinho
+- 📦 **Expedições** com KM de saída e chegada e cálculo automático do KM rodado
+- 🔧 **Inspeções com 17 itens** e registro de manutenções com foto da nota fiscal
+- ⛽ **Abastecimentos** com cotação por litro calculada automaticamente
+- 📊 **Painel e relatórios** filtráveis por período, motorista, veículo, rota e status, exportáveis para Excel e PDF
+- 🪪 **Alertas** de CNH vencida ou vencendo em até 30 dias
 
 <br/>
 
-## 🛠️ Tecnologias e Ferramentas
+## 🧩 Como foi construído
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">🔍<br/><b>Diagnóstico</b><br/><sub>Dores com o coordenador</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">🗺️<br/><b>Mapeamento</b><br/><sub>Fluxo logístico completo</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">📐<br/><b>Indicadores</b><br/><sub>O que acompanhar e por quê</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">🔁<br/><b>Validação</b><br/><sub>Reuniões e ajustes</sub></td>
+<td align="center">➜</td>
+<td align="center" width="20%">💻<br/><b>App web</b><br/><sub>Firebase + demo pública</sub></td>
+</tr>
+</table>
+
+</div>
+
+Desenvolvi com **HTML, CSS e JavaScript puros**, usando o **Claude (Anthropic)** como copiloto de código. O
+objetivo era uma ferramenta que não custasse nada para rodar: recursos gratuitos de nuvem e nenhuma licença
+de software paga.
+
+**Dores da operação e como o app resolve:**
+
+| Dor | Solução |
+|---|---|
+| Ninguém sabia quais veículos estavam livres | O status (**Disponível / Em uso / Manutenção**) é calculado sozinho a partir das expedições e manutenções abertas |
+| KM rodado calculado na mão | Cada expedição guarda o KM de saída e de chegada e **calcula o KM rodado** ao finalizar |
+| Gastos com combustível difíceis de comparar | Cada abastecimento calcula a **cotação por litro** a partir do valor total e dos litros |
+| CNHs vencendo sem ninguém perceber | O painel mostra um **aviso** de CNH vencida ou vencendo em até 30 dias |
+| Veículos cadastrados em duplicidade | **Verificação de unicidade** de placa, Renavam e chassi |
+| Relatórios montados manualmente | Relatório geral com filtros, **exportação em CSV** para Excel e **impressão / salvar em PDF** |
+
+<br/>
+
+## 🛠️ Tecnologias
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Frontend e Estilização
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+### 💻 Frontend
+<img src="https://img.shields.io/badge/HTML5-FF5A00?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-E04E00?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-1C1E24?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/TailwindCSS-FF7A2E?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 
 </td>
 <td width="50%" valign="top">
 
-### ☁️ Infraestrutura e Dados
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/IA%20Generativa-FF69B4?style=for-the-badge&logo=google&logoColor=white"/>
+### ☁️ Backend e Hospedagem
+<img src="https://img.shields.io/badge/Firebase%20Auth-E04E00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firestore-FF5A00?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Security%20Rules-1C1E24?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-1C1E24?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Dados e Relatórios
+<img src="https://img.shields.io/badge/localStorage%20(demo)-FF7A2E?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSV%20%2F%20Excel-E04E00?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Imprimir%20em%20PDF-FF5A00?style=for-the-badge&logoColor=white"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧰 Ferramentas
+<img src="https://img.shields.io/badge/Git-FF5A00?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-1C1E24?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude%20(copiloto)-E04E00?style=for-the-badge&logo=anthropic&logoColor=white"/>
 
 </td>
 </tr>
 </table>
 
+<br/>
 
-## 🔐 Sobre Esta Versão Demonstrativa
+## ✨ O que ele faz
 
-Esta versão foi disponibilizada exclusivamente para fins de apresentação e portfólio.
-- No ambiente de produção entregue ao cliente, a aplicação conta com autenticação por login/senha, controle de permissões e banco de dados em nuvem via **Firebase**.
-- Para preservar dados sigilosos e informações estratégicas da empresa, esta demonstração pública opera de forma isolada no navegador (via `localStorage`) utilizando dados fictícios para fins estritamente ilustrativos.
+| Módulo | O que dá para fazer |
+|---|---|
+| 📊 Dashboard | Expedições, KM rodado, veículos em uso / disponíveis / em manutenção, motoristas ativos, inspeções críticas, gráficos por período |
+| 👤 Motoristas | Nome, contato, número e validade da CNH, status ativo/inativo |
+| 🚚 Veículos | Nome, código, placa, mês/ano, Renavam, chassi, proprietário e status automático |
+| 🏪 Lojas · 🛣️ Rotas | Lojas por cidade, rotas com lojas vinculadas, motorista responsável e dias da semana |
+| ⛽ Abastecimentos | Data, veículo, motorista, combustível, litros, valor total e cotação por litro |
+| 📝 Inspeções | Odômetro, alertas do painel e **checklist de 17 itens** avaliados como OK / Atenção / Crítico |
+| 🔧 Manutenção | Oficina, número e foto da nota fiscal, serviço, valor, aberta/finalizada |
+| 📦 Expedições | Motorista + rota + veículo, observações de saída e retorno, finalização com um clique |
 
 <br/>
 
-## 📚 Principais Aprendizados
+## 🏗️ Arquitetura
 
-O projeto proporcionou uma rica experiência de interseção entre **gestão operacional, análise de processos e desenvolvimento tecnológico**. Mais do que escrever código, o grande desafio foi compreender a dor real do usuário e transformá-la em uma ferramenta prática que resolve o dia a dia da operação.
+A demonstração inteira fica em **um único arquivo HTML (cerca de 640 linhas)**, sem etapa de build.
+
+| Parte | O que faz |
+|---|---|
+| ⚙️ `E` (configuração das entidades) | Descreve cada módulo uma vez só (campos, tipos, colunas), e os formulários e tabelas são gerados a partir disso |
+| 🧠 Regras de negócio | Status do veículo, KM rodado, cotação por litro, alertas de CNH, campos únicos |
+| 🖥️ Renderização | Template strings + Tailwind; menu lateral, cards, tabelas, modais e avisos |
+| 💾 Armazenamento | `localStorage` na demo; Firebase Auth + Firestore com Security Rules em produção |
+| 🧾 Relatórios | Filtros, exportação em CSV e layout próprio para impressão em PDF |
+
+Criar um módulo novo é, na maior parte, configuração:
+
+```js
+const E = {
+  lojas: {
+    t: 'Lojas', n: 'Nova loja',
+    f: [['nomeLoja', 'Nome da loja'], ['cidade', 'Cidade'], ['observacoes', 'Observações', 'textarea']],
+    c: ['nomeLoja', 'cidade', 'observacoes']
+  }
+}
+```
+
+<br/>
+
+## 🔐 Sobre esta demonstração
+
+| | |
+|---|---|
+| 🏢 **Produção** | A versão do cliente tem login e senha, **perfis de acesso** (Coordenador e Motorista) e banco de dados no Firebase |
+| 🧪 **Demo pública** | Roda inteira no navegador com **dados fictícios** no `localStorage`, sem expor nenhuma informação da empresa |
+| ♻️ **Restaurar** | O botão **"Restaurar Dados Iniciais"** traz de volta os dados de exemplo a qualquer momento |
+
+<br/>
+
+## 🚀 Como usar
+
+É só abrir a [demonstração online](https://demofrotasexpedicoes.vercel.app/), ou rodar no seu computador:
+
+```bash
+git clone https://github.com/amandapasqualotto/frotas-expedicoesdemo.git
+cd frotas-expedicoesdemo
+# abra o arquivo index.html.html no navegador (precisa de internet para o Tailwind e as fontes)
+```
+
+<br/>
+
+## 📚 Principais aprendizados
+
+Mais do que escrever código, o desafio foi **entender a dor real de quem usa** e transformá-la em uma ferramenta
+prática. O projeto juntou gestão operacional, análise de processos e desenvolvimento, e me ensinou a
+priorizar o que o usuário de fato precisa no dia a dia.
 
 <br/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2185B,100:FF8FC7&height=120&section=footer" width="100%" alt="footer"/>
+Feito com 🧡 por [Amanda Pasqualotto](https://github.com/amandapasqualotto)
 
 <br/>
 
-<a href="#english">⬆️ Back to top / Voltar ao topo</a>
+<a href="#english">🇺🇸 Read in English</a> &nbsp;|&nbsp; <a href="#portugues">⬆️ Voltar ao topo</a>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C1E24,100:FF5A00&height=120&section=footer" width="100%" alt="footer"/>
